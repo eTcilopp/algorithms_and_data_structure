@@ -93,9 +93,8 @@ def my_func(num):  # алгоритм поиска простых чисел п�
     return el
 
 
-# Python program to display all the prime numbers within an interval
 
-def my_func2(num):
+def my_func2(num): # Гибридный вариант № 3 - оптимизация варианта №2
     if num < 3:
         return num + 1
     primes = []
